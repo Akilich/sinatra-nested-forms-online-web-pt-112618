@@ -7,4 +7,12 @@ class Ship
     @type = params[:type]
     @booty_attributes = params[:booty_attributes]
   end
+  
+   def self.all
+    SHIPS
+  end
+
+  def self.clear
+    SHIPS.clear
+  end
 end
