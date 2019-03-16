@@ -3,5 +3,5 @@ class Ship
   SHIP = []
   
   def initialize(params)
-    
+    @name = params[:name]
 end
