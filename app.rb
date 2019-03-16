@@ -6,5 +6,13 @@ module FormsLab
     get '/' do
     erb :root 
     end
+    
+    get '/new' do
+      erb :new
+    end
+    
+    post '/' do
+      erb :show
+    end
   end
 end
